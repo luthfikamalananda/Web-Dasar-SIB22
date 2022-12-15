@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBloque</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header id="navbar">
+        <div class="jumbotron">
+            <h1>My Bloque</h1>
+            <p>Keseharian seorang Mahasiswa S1 - Teknik Informatika</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#welcome">HOME</a></li>
+                <li><a href="#hobi">HOBI</a></li>
+                <li><a href="#tentang">TENTANG SAYA</a></li>
+                <li id="nav-user"><a href=""> WELCOME <span id="nama-nav"></span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <article id="welcome" class="card">
+                <h2>sambutan</h2>
+                <img src="image/welcome.jpg" alt="HALOO">
+                <p>Selamat datang pada Blog saya, disini saya akan memberikan informasi - informasi tentang perkembangan studi saya dan serta hal - hal yang berkaitan
+                    tentang saya pribadi, seperti hobi, profil, dan lain lain. Web Blog ini bertujuan untuk memenuhi tugas submission pada studi saya di Dicoding Akademi Indonesia.
+                    Oleh karena itu, saya membuat Blog sederhana ini dengan teknik - teknik yang sudah diberikan pada course Belajar Pemrograman Web Dasar.
+                    Web Blog ini dibuat dengan menggunakan HTML, CSS dan Javascript yang masih tergolong pada kelas dasar sehingga belum memiliki fitur yang rumit pada pengaplikasiannya,
+                    terimakasih sudah mampir ke Web Blog saya ini Terimakasihh!!.
+                </p>
+                <div class="interactive">
+                    <button class="tombol like welcome">&#x1F44D LIKE</button>
+                    <p class="notifikasi">Terimakasih <span class="nama"></span> sudah like <span id="welcome-counter">0</span>x</p>
+                </div>
+            </article>
+
+            <article class="card" id="hobi">
+                <h2>hobi</h2>
+                <img src="image/code.jpg" alt="CODE">
+                <p>Saya memiliki beberapa hobi yaitu : koding, bermain game, belajar hal baru, dan mengikuti perkembangan teknologi. 
+                    Hobi - hobi tersebut sangatlah mengasikkan bagi saya dan membantu saya untuk menjadi pribadi yang lebih kreatif,
+                    dengan koding saya bisa melatih logika saya tiap harinya dengan membuat algoritma atau hanya styling saja menggunakan HTML dan CSS.
+                    Dengan hobi saya yang suka mengikuti perkembangan teknologi pastinya dapat sangat membantu dalam era globalisasi ini, 
+                    dan tidak akan merasa gaptek.
+                </p>
+                <div class="interactive">
+                    <button class="tombol like hobi">&#x1F44D LIKE</button>
+                    <p class="notifikasi">Terimakasih <span class="nama"></span> sudah like <span id="hobi-counter">0</span>x</p>
+                </div>
+            </article>
+
+            <article class="card" id="tentang">
+                <h2>tentang saya</h2>
+                <div class="baris">
+                    <div class="kolom">
+                        <img src="image/me.jpg" alt="My Picture">
+                    </div>
+                    <div class="kolom">
+                        <img src="image/udinus.jpg" alt="My University">
+                    </div>
+                    <div class="kolom">
+                        <img src="image/semarang.jpg" alt="Where I Live">
+                    </div>
+
+                </div>
+
+                <p>Saya adalah Luthfi Kamal Ananda, mahasiswa S1 jurusan Teknik Informatika. Saat ini saya sedang menempuh pendidikan di semester 5 dengan mengikuti
+                    program MSIB Batch 3 yaitu Studi Independen di Dicoding Akademi Indonesia dengan mengambil paket Front End dan Back End.</p> <br>
+                <p>Saya menempuh pendidikan kuliah ini di Universitas Dian Nuswantoro yang terletak di Semarang, tepatnya Jl. Imam Bonjol No.207, Pendrikan Kidul, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50131.
+                    Alasan saya berkuliah di sini karena memang Universitas Dian Nuswantoro atau UDINUS ini terkenal di bidang IT nya, sehingga membuat saya tertarik
+                    untuk melanjutkan studi saya di kampus ini.</p> <br>
+                <p>Untuk sekarang saya tinggal di Semarang tepatnya di Kecamatan Ngaliyan, yang dekat dengan kampus dan syukurlah tempat ini memiliki lokasi yang sangat strategis.
+                    Saya sudah tinggal di Semarang sejak lahir yaitu selama 20 tahun, dan belum memiliki rencana untuk pindah ke tempat lain.</p>
+            </article>
+        </div>
+
+        <aside>
+            <article class="profile card">
+                <header id="profile">
+                    <h2>Profil Singkat</h2>
+                    <p>Mahasiswa S1-Teknik Infromatika</p>
+                    <figure>
+                        <img src="image/me.jpg" alt="fotoku">
+                        <figcaption>Foto saya</figcaption>
+                    </figure>
+                </header>
+                <section>
+                    <table>
+                        <tr>
+                            <th>Asal</th>
+                            <td>:</td>
+                            <td>Semarang</td>
+                        </tr>
+                        <tr>
+                            <th>Tanggal Lahir</th>
+                            <td>:</td>
+                            <td>9 Februari 2002</td>
+                        </tr>
+                        <tr>
+                            <th>Studi</th>
+                            <td>:</td>
+                            <td>Teknik Informatika</td>
+                        </tr>
+                        <tr>
+                            <th>Universitas</th>
+                            <td>:</td>
+                            <td>UDINUS</td>
+                        </tr>
+                        <tr>
+                            <th>Telepon</th>
+                            <td>:</td>
+                            <td>+6282228474414</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+        
+    </main>
+
+    <footer>
+        <p>Luthfi Kamal Ananda (f007x0032) - 2022 &copy Copyright Dicoding Indonesia</p>
+    </footer>
+
+    <script src="assets/javascript.js"></script>
+</body>
+
+</html>
